@@ -33,6 +33,11 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+    public function travels()
+    {
+        return $this->hasMany(Travel::class);
+    }
+
     /**
      * The attributes that should be cast.
      *
