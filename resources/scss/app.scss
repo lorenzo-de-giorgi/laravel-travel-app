@@ -7,3 +7,27 @@ $fa-font-path: "../webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
 @import "~bootstrap/scss/bootstrap.scss";
+
+.mt-nav{
+    background-color: $teal-color;
+    #mt-logo{
+        width: 200px;
+    }
+    .mt-delete{
+        color: $white-color;
+        text-decoration: none;
+        border: 1px solid $white-color;
+        padding: 6px 12px;
+        border-radius: 12px;
+        &:hover{
+            background-color: $white-color;
+            color: $teal-color;
+            transition: 0.3s;
+        }
+    }
+}
+
+.mt-a-nav{
+    text-decoration: none;
+    color: $white-color;
+}
