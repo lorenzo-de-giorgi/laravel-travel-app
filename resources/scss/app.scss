@@ -8,6 +8,10 @@ $fa-font-path: "../webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
 @import "~bootstrap/scss/bootstrap.scss";
 
+.mt-text-gray{
+    color: $gray;
+}
+
 .mt-nav{
     background-color: $teal-color;
     #mt-logo{
@@ -30,4 +34,13 @@ $fa-font-path: "../webfonts" !default;
 .mt-a-nav{
     text-decoration: none;
     color: $white-color;
+}
+
+.mt-h2{
+    color: $teal-color;
+}
+
+.mt-home-p{
+    color: $gray;
+    font-size: 20px;
 }
